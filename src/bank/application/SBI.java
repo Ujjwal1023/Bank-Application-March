@@ -31,7 +31,7 @@ public class SBI implements BankInterface {
     public String addMoney(int money) {
         balance = balance + money;
         String message = money + "has been added to the account" + accountNo + "" +
-                "the total balance is now " + balance;
+                "the total balance is now " + balance;  //showing total balance
 
         return message;
     }

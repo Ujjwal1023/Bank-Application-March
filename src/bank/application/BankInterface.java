@@ -4,7 +4,8 @@ public interface BankInterface {
 
      int checkBalance(String password);
 
-     String addMoney(int money);
+     String addMoney(int money);  //add money
+
 
      String withdrawMoney(int money,String password);
      String changePassword(String oldPassword,String newPassword);

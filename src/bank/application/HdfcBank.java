@@ -20,7 +20,7 @@ public class HdfcBank implements BankInterface{
 
     @Override
     public int checkBalance(String password) {
-        if(password==this.password){
+        if(password==this.password){     //checking the password
             return balance;
         }
         return -1;

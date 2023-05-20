@@ -52,7 +52,7 @@ public class Main {
 
         SBI sbiAccount=new SBI(initialBalance,password,name);
 
-        System.out.println("Enter money and password to add ");
+        System.out.println("Enter money and password to add too ");
 
 
 
